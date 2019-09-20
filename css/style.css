@@ -432,9 +432,8 @@ z-index: 1;
     transition: 0.4s;
 }
 .Works-section .no-gutters div img:hover{
-    filter: grayscale(1);
-    -webkit-filter: grayscale(1);
-    -moz-filter: grayscale(1);
+    filter: drop-shadow(2px 4px 6px black);
+    -webkit-filter: drop-shadow;
 }
 
 .feedback-section{
